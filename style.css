@@ -5,7 +5,7 @@ body {
 }
 
 .banner {
-    background-image: url(./B10A1-Challenge-Begins/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
@@ -50,4 +50,107 @@ body {
     padding: 15px;
     border-radius: 8px;
     text-decoration: none;
+}
+
+
+.why_web {
+    width: 100%;
+    max-width: 1400px;
+    margin: 50px auto;
+    background-color: #fffbfb;
+
+}
+
+.why_web .why_web_main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px 80px;
+    border-radius: 15px;
+}
+
+.why_web .why_web_main .text h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 900;
+    color: #0D1321;
+    margin: 10px 0px;
+    
+}
+
+.why_web .why_web_main .text p {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 700;
+    padding: 0px 100px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.why_web .why_web_main .card_one,
+.card_three {
+    display: flex;
+    /* Enable flexbox for layout */
+    align-items: center;
+    /* Vertically center the items */
+    justify-content: center;
+    /* Horizontally center the items */
+    padding: 15px 30px;
+    /* Vertical padding of 15px, no horizontal padding */
+    background: linear-gradient(to right, #f0f4ff, #fbfbfb);
+    /* White background for the card */
+    border-radius: 25px;
+    /* Rounded corners for the card */
+    margin: 10px auto;
+    gap: 50px;
+
+}
+
+.why_web .why_web_main .card_two {
+    display: flex;
+    /* Enable flexbox for layout */
+    align-items: center;
+    /* Vertically center the items */
+    justify-content: center;
+    /* Horizontally center the items */
+    padding: 15px 30px;
+    flex-direction: row-reverse;
+    /* Vertical padding of 15px, no horizontal padding */
+    background: linear-gradient(to right, #fbfbfb, #f0f4ff);
+    /* White background for the card */
+    border-radius: 25px;
+    /* Rounded corners for the card */
+    margin: 10px auto;
+    gap: 50px;
+
+}
+
+
+.why_web .why_web_main .card_one .card_text h2 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: #0D1321;
+    margin: 0px;
+}
+
+.why_web .why_web_main .card_one .card_text p,
+.card_two .card_text p,
+.card_three .card_text p {
+    font-size: 17px;
+    max-width: 600px;
+    /* width: 70%; */
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 30px;
+}
+
+
+.why_web .why_web_main .card_one .card_text a,
+.card_two .card_text a,
+.card_three .card_text a {
+    color: #0D1321;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    outline: 1px solid #000000;
 }
