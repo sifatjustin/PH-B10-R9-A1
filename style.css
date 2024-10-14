@@ -197,7 +197,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin: 50px 0px 0px ;
+    margin: 50px 0px 0px;
 }
 
 .my_targer_main .my_target .cards .one {
@@ -205,13 +205,79 @@ body {
     padding: 25px;
     border-radius: 15px;
 }
+
 .my_targer_main .my_target .cards .two {
     background-color: #cbd5f0;
     padding: 25px;
     border-radius: 15px;
 }
+
 .my_targer_main .my_target .cards .three {
     background-color: #cbedf0;
     padding: 25px;
     border-radius: 15px;
+}
+
+.support_banner {
+    width: 100%;
+    max-width: 1400px;
+    margin: 50px auto;
+    background-color: #fff;
+}
+
+.support_banner .support {
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px 100px;
+    margin: 50px auto;
+    border-radius: 20px;
+    background-image: url(./assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.support_banner .support h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.support_banner .support p {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.box {
+    width: 70%;
+    /* Make the box full width */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width */
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin: 15px auto;
+
+}
+
+.text {
+    width: calc(100% - 100px);
+    /* Adjust width for the text input (leaving space for submit button) */
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    /* Optional: Add padding for text input */
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    color: #000000;
+    font-weight: 700;
+    /* Optional: Add padding for the submit button */
 }
